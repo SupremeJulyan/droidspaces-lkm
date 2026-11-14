@@ -1,0 +1,11 @@
+PASS valid drop and invalid-cap rejection
+PASS missing effective CAP_SETPCAP is denied
+PASS valid drop and invalid-cap rejection
+PASS missing effective CAP_SETPCAP is denied
+active
+/org/freedesktop/UPower/devices/battery_battery
+/org/freedesktop/UPower/devices/line_power_usb
+/org/freedesktop/UPower/devices/line_power_wireless
+/org/freedesktop/UPower/devices/line_power_ucsi_source_psy_socopmic_glinkoucsi_glink1
+/org/freedesktop/UPower/devices/line_power_ucsi_source_psy_socopmic_glinkoucsi_glink2
+/org/freedesktop/UPower/devices/DisplayDevice

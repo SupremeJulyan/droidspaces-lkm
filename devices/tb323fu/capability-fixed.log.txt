@@ -1,0 +1,31 @@
+Current: =ep
+Bounding set =
+Ambient set =
+Current IAB: !cap_chown,!cap_dac_override,!cap_dac_read_search,!cap_fowner,!cap_fsetid,!cap_kill,!cap_setgid,!cap_setuid,!cap_setpcap,!cap_linux_immutable,!cap_net_bind_service,!cap_net_broadcast,!cap_net_admin,!cap_net_raw,!cap_ipc_lock,!cap_ipc_owner,!cap_sys_module,!cap_sys_rawio,!cap_sys_chroot,!cap_sys_ptrace,!cap_sys_pacct,!cap_sys_admin,!cap_sys_boot,!cap_sys_nice,!cap_sys_resource,!cap_sys_time,!cap_sys_tty_config,!cap_mknod,!cap_lease,!cap_audit_write,!cap_audit_control,!cap_setfcap,!cap_mac_override,!cap_mac_admin,!cap_syslog,!cap_wake_alarm,!cap_block_suspend,!cap_audit_read,!cap_perfmon,!cap_bpf,!cap_checkpoint_restore
+Securebits: 00/0x0/1'b0 (no-new-privs=0)
+ secure-noroot: no (unlocked)
+ secure-no-suid-fixup: no (unlocked)
+ secure-keep-caps: no (unlocked)
+ secure-no-ambient-raise: no (unlocked)
+uid=0(root) euid=0(root)
+gid=0(root)
+groups=
+Guessed mode: HYBRID (4)
+Running as unit: run-p4631-i18199.service
+          Finished with result: success
+Main processes terminated with: code=exited, status=0/SUCCESS
+               Service runtime: 10ms
+             CPU time consumed: 9ms
+● upower.service - Daemon for power management
+     Loaded: loaded (/usr/lib/systemd/system/upower.service; disabled; preset: enabled)
+     Active: active (running) since Sat 2026-11-14 23:01:01 CST; 10ms ago
+ Invocation: 408100dbef254315b4fe5e79f092a204
+       Docs: man:upowerd(8)
+   Main PID: 4637 (upowerd)
+        CPU: 159ms
+     CGroup: /system.slice/upower.service
+             └─4637 /usr/libexec/upowerd
+
+Nov 14 23:01:00 Ubuntu26-KDE systemd[1]: Starting upower.service - Daemon for power management...
+Nov 14 23:01:01 Ubuntu26-KDE upowerd[4637]: USB power supply /sys/devices/platform/soc/soc:pmic-glink/soc:pmic-glink:battery-charger/power_supply/wireless without usb_type property, please report
+Nov 14 23:01:01 Ubuntu26-KDE systemd[1]: Started upower.service - Daemon for power management.

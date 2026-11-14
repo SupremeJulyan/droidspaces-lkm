@@ -1,0 +1,48 @@
+Welcome to Droidspaces v7.2.0 !
+
+
+
+[+] Applying Android system optimizations...
+
+[+] Configuring host-side networking for lkm-verify...
+
+[+] Container started with PID 8934 (Monitor: 8931)
+
+[+] Ensuring /data is mounted with suid support...
+
+[+] Hardware access disabled: using isolated tmpfs...
+
+[+] Booting 'lkm-verify' (init: /sbin/lkm-test-init)...
+
+
+
+Host: Android aarch64
+
+Container: lkm-verify (RUNNING)
+  PID: 8934
+  OS: Alpine Linux v3.22
+  Hostname: lkm-verify
+
+Features:
+  Networking: none
+  SELinux: Enforcing
+  Custom Init: /sbin/lkm-test-init
+
+[+] Container 'lkm-verify' is running in background.
+
+[+] Use 'su -c "droidspaces --name='lkm-verify' enter"' to connect.
+
+
+┌────────────┬──────────┐
+│ NAME       │ PID      │
+├────────────┼──────────┤
+│ lkm-verify │ 8934     │
+└────────────┴──────────┘
+
+3.22.2
+[+] Stopping container 'lkm-verify' (PID 8934)...
+
+[+] Container 'lkm-verify' stopped.
+
+
+(No containers running)
