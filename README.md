@@ -352,3 +352,9 @@ adapted:
 **Disclaimer**: loading a kernel module runs kernel code with full privilege.
 Use this only if you can accept the risk of an unbootable device, and have a
 recovery path (fastboot / recovery).
+
+### TB323FU Ubuntu 26.04 procfs compatibility
+
+Device-tested optional companion for proc UID/GID mapping pathname lookups,
+and Ubuntu udev/TPM service configuration fixes: [implementation and limits](docs/tb323fu/PROC-IDMAP.md).
+This is device-specific and is not included in the multi-KMI release builds.
